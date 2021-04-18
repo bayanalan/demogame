@@ -1,11 +1,11 @@
-# [[game_title]]
+# DemoGame
 
-<kbd>[[game_title]]</kbd> is your new game's starting point
+<kbd>DemoGame</kbd> is your new game's starting point
 
 This starter template is based onthe excellent [phaser-template](https://github.com/remarkablegames/phaser-template)
 It is intended to be used with the game starter CLI wizard <kbd>mkgame</kbd>
 
-[Play [[game_title]]](http://[[game_domain]])
+[Play DemoGame](http://[[game_domain]])
 
 ## Prerequisites
 
