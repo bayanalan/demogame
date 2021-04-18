@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/demogame/static/css/main.a421fb84.chunk.css",
+    "main.js": "/demogame/static/js/main.bfb66cc8.chunk.js",
+    "main.js.map": "/demogame/static/js/main.bfb66cc8.chunk.js.map",
+    "runtime-main.js": "/demogame/static/js/runtime-main.8ed61385.js",
+    "runtime-main.js.map": "/demogame/static/js/runtime-main.8ed61385.js.map",
+    "index.html": "/demogame/index.html",
+    "precache-manifest.94d8225135cb42f5d458b3250b94cdac.js": "/demogame/precache-manifest.94d8225135cb42f5d458b3250b94cdac.js",
+    "service-worker.js": "/demogame/service-worker.js",
+    "static/css/main.a421fb84.chunk.css.map": "/demogame/static/css/main.a421fb84.chunk.css.map",
+    "static/media/dude.png": "/demogame/static/media/dude.526a78a9.png",
+    "static/media/platform.png": "/demogame/static/media/platform.69db09bf.png",
+    "static/media/sky.png": "/demogame/static/media/sky.47a86b19.png",
+    "static/media/star.png": "/demogame/static/media/star.a7cb585c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8ed61385.js",
+    "static/css/main.a421fb84.chunk.css",
+    "static/js/main.bfb66cc8.chunk.js"
+  ]
+}
