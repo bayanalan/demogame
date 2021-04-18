@@ -1,0 +1,37 @@
+{
+  "name": "[[project_name]]",
+  "version": "1.0.0",
+  "description": "[[game_description]]",
+  "author": "[[author_name]] <[[author_email]]>",
+  "scripts": {
+    "build": "web-scripts build",
+    "clean": "rm -rf build",
+    "deploy": "scripts/deploy.sh",
+    "lint": "eslint --ignore-path .gitignore .",
+    "lint:fix": "npm run lint -- --fix",
+    "release": "standard-version --no-verify",
+    "start": "web-scripts start",
+    "test": "web-scripts test",
+    "test:ci": "CI=true npm test -- --passWithNoTests"
+  },
+  "homepage": "https://[[game_domain]]",
+  "devDependencies": {
+    "@commitlint/cli": "^9.0.1",
+    "@commitlint/config-conventional": "^9.0.1",
+    "@descriptive/web-scripts": "1.1.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "gitploy": "0.1.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.9",
+    "phaser": "3.23.0",
+    "prettier": "^2.0.5",
+    "standard-version": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=10",
+    "npm": ">=5.6",
+    "yarn": ">=1"
+  },
+  "private": true,
+  "license": "MIT"
+}
