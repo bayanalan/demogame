@@ -5,12 +5,12 @@
 This starter template is based onthe excellent [phaser-template](https://github.com/remarkablegames/phaser-template)
 It is intended to be used with the game starter CLI wizard <kbd>mkgame</kbd>
 
-[Play DemoGame](http://[[game_domain]])
+[Play DemoGame](https://bayanalan.github.com/demogame)
 
 ## Prerequisites
 
-- [Node.js >=10](https://nodejs.org/en/download/) 
-- [Git / GitHub](https://desktop.github.com/) 
+- [Node.js >=10](https://nodejs.org/en/download/)
+- [Git / GitHub](https://desktop.github.com/)
 
 ## Installation
 
@@ -23,17 +23,16 @@ npm i -g mkgame
 Then, any time from the command line you can make a new game with:
 
 ```js
-mkgame
+mkgame;
 ```
 
 <kbd>mkgame</kbd> will ask you a few questions and then set up a new game folder and game repository on GitHub. The only requirement is that you already have a GitHub account. If necessary, <kbd>mkgame</kbd> will ask you to log into GitHub before proceeding.
-
 
 ## Available NPM Scripts
 
 In the project directory, you can run:
 
-### `npm dev`
+### `npm run dev`
 
 Runs the app in the development mode.
 
@@ -45,7 +44,6 @@ The page will reload when you save edits. You will see lint errors in the consol
 
 Deploys the app to [GitHub Pages](https://pages.github.com/) by force pushing the `build` folder to the remote repository's `gh-pages` branch.
 
-
 ### `npm run build`
 
 Builds the app for production to the `build` folder.
@@ -53,8 +51,6 @@ Builds the app for production to the `build` folder.
 It correctly bundles in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.
- 
-
 
 ## Environment Variables
 
@@ -67,7 +63,6 @@ For example:
 WEB_APP_VERSION=$npm_package_version
 WEB_APP_DOMAIN=www.example.com
 ```
-
 
 ## Layout
 
@@ -111,4 +106,3 @@ tree -I 'build|node_modules'
 
 8 directories, 24 files
 ```
-

@@ -10,9 +10,9 @@ const { Game, Scale } = window.Phaser;
 const config = {
   width: 800,
   height: 600,
-  title: '[[game_title]]',
+  title: 'Demo Game',
   // see `.env` and `package.json`
-  url: 'http://[[game_domain]]',
+  url: 'http://bayanalan.github.com/demogame',
   version: process.env.WEB_APP_VERSION,
   scene: [Boot, Main],
   physics: {
