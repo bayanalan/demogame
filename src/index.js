@@ -18,7 +18,7 @@ const config = {
   physics: {
     default: 'arcade',
     arcade: {
-      gravity: { y: 5 },
+      gravity: { y: 100 },
       debug: process.env.NODE_ENV === 'development',
     },
   },
