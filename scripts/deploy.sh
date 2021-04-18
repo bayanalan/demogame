@@ -4,7 +4,7 @@
 stash_output=$(git add . && git stash)
 
 # run lint
-npm run lint
+#npm run lint
 
 # remove `build` folder
 npm run clean --silent
